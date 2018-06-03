@@ -1,13 +1,12 @@
-package guru.springframwork.cucknoris.services;
+package guru.springframwork.cucknorris.services;
 
 import org.junit.Test;
 
 import static org.hamcrest.core.IsNull.notNullValue;
 import static org.junit.Assert.assertThat;
 
-public class ChuckNorrisQuotesServiceImplTest {
-    private ChuckNorrisQuotesService classUnderTest= new ChuckNorrisQuotesServiceImpl();
-
+public class JokeServiceImplTest {
+    private JokeService classUnderTest= new JokeServiceImpl();
 
     @Test
     public void getRandomQuote() {
