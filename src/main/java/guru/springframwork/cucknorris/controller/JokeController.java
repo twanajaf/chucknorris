@@ -11,8 +11,8 @@ public class JokeController {
     private final JokeService chuckNorrisQuotesService;
 
     @Autowired
-    public JokeController(JokeService chuckNorrisQuotesService) {
-        this.chuckNorrisQuotesService = chuckNorrisQuotesService;
+    public JokeController(JokeService jokeService) {
+        this.chuckNorrisQuotesService = jokeService;
     }
 
     @RequestMapping({"/", ""})
