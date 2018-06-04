@@ -1,4 +1,4 @@
-package guru.springframwork.cucknorris;
+package guru.springframework.cucknorris;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.springframework.boot.SpringApplication;

@@ -1,4 +1,4 @@
-package guru.springframwork.cucknorris;
+package guru.springframework.cucknorris;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
