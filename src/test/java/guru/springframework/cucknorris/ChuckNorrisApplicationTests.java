@@ -1,4 +1,4 @@
-package guru.springframwork.cucknorris;
+package guru.springframework.cucknorris;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class CucknorisApplicationTests {
+public class ChuckNorrisApplicationTests {
 
 	@Test
 	public void contextLoads() {
