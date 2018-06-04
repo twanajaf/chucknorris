@@ -1,5 +1,6 @@
 package guru.springframwork.cucknorris.services;
 
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 import org.junit.Test;
 
 import static org.hamcrest.core.IsNull.notNullValue;
@@ -9,7 +10,7 @@ public class JokeServiceImplTest {
     private final JokeService classUnderTest;
 
     public JokeServiceImplTest() {
-        this.classUnderTest = new JokeServiceImpl();
+        this.classUnderTest = new JokeServiceImpl(new ChuckNorrisQuotes());
     }
 
     @Test
