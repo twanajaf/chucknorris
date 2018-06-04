@@ -1,6 +1,6 @@
-package guru.springframwork.cucknorris.controller;
+package guru.springframework.cucknorris.controller;
 
-import guru.springframwork.cucknorris.services.JokeService;
+import guru.springframework.cucknorris.services.JokeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

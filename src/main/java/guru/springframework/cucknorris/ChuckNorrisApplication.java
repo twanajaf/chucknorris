@@ -1,4 +1,4 @@
-package guru.springframwork.cucknorris;
+package guru.springframework.cucknorris;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
