@@ -1,4 +1,4 @@
-package guru.springframwork.cucknorris.services;
+package guru.springframework.cucknorris.services;
 
 import org.junit.Test;
 
